@@ -101,7 +101,7 @@ def result():
         #Convert Log y to y only using log transform of power e `~`2.718281828
         inve_pred=10**prediction1
         # Take the first value of prediction
-        prediction = inve_pred[0]
+        prediction = inve_pred
 
         return render_template("result.html",prediction=prediction)
 
